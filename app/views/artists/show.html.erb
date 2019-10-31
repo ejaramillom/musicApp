@@ -3,7 +3,6 @@
     <div class="col-sm-12">
       <header>
         <h1>Albums</h1>
-        <%# <%= link_to "<span class='glyphicon glyphicon-plus'></span><span class='hidden-xs'> Publicar </span>  Habitación".html_safe, new_room_path, class: "btn btn-primary new-room" %>
       </header>
 
       <div class="albums-list">
@@ -14,8 +13,7 @@
               <img src="<%= album.image_url %>" class="card-img-top" alt="<%= album.name %>">
               <div class="card-body">
                 <h5 class="card-title"><%= album.released_at %></h5>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                <!-- <a href=" class="btn btn-primary">Ver más</a> -->
+                <h6 class="card-title"><%= album.name %></h6>
               </div>
             </div>
           </div>
