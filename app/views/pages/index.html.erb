@@ -3,7 +3,6 @@
     <div class="col-sm-12">
       <header>
         <h1>Artistas</h1>
-        <%# <%= link_to "<span class='glyphicon glyphicon-plus'></span><span class='hidden-xs'> Publicar </span>  Habitación".html_safe, new_room_path, class: "btn btn-primary new-room" %>
       </header>
 
       <div class="artists-list">
@@ -15,8 +14,6 @@
               <div class="card-body">
                 <h5 class="card-title"><%= artist.name %></h5>
                 <%= link_to "<span class='glyphicon glyphicon-pencil'><span>".html_safe, artist_path(artist), class: "show-artist-btn" %>
-                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                <!-- <a href=" class="btn btn-primary">Ver más</a> -->
               </div>
             </div>
           </div>

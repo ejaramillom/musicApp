@@ -14,7 +14,7 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
+ /* @import "bootstrap-sprockets";
  @import "theme";
  @import "bootstrap";
  @import "rooms";
@@ -29,4 +29,4 @@
      font-size: 42px;
      margin-bottom: 30px;
    }
- }
+ } */
